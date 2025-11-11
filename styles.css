@@ -1,28 +1,33 @@
-table {
-  background-color: yellow;
-  border: 1px solid black;
-  border-collapse: collapse;
-  text-align: center;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-color: white;
+  font-family: "Times New Roman", serif;
 }
 
-table, th, td, tr {
-  border: 1px solid black;
+table {
+  border-collapse: collapse;
+  background-color: yellow;
+  border: 3px solid black;
+  text-align: center;
+  font-size: 18px;
+}
+
+th, td {
+  border: 3px solid black;
+  padding: 10px 20px;
 }
 
 caption {
   caption-side: top;
   font-weight: bold;
-  font-size: 20px;
-  padding: 8px;
+  font-size: 28px;
+  margin-bottom: 10px;
 }
 
 th {
   font-weight: bold;
-  font-size: 18px;
-  padding: 8px;
-}
-
-td {
-  padding: 8px;
-  font-size: 16px;
 }
